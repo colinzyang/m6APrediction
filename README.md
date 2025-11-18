@@ -17,10 +17,16 @@ devtools::install_github("https://github.com/colinzyang/m6APrediction")
 Dependencies: randomForest, stats
 R Version: R ≥ 3.5.0
 ```
+##  Quick Start
+1. Load the Package and Data
+2. Batch Prediction(Muti-sample)
+3. Single-Sample Prediction
+
 ##  Model Performance
 The m6APrediction model has been validated using ROC and PRC analyses, demonstrating strong discriminative power in handling imbalanced genomic data.
 
 AUC (ROC): ~0.93
+
 AUPRC: ~0.87
 
 (Note: Detailed performance plots are available in the project report/vignettes)
