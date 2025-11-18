@@ -17,10 +17,9 @@ devtools::install_github("https://github.com/colinzyang/m6APrediction")
 Dependencies: randomForest, stats
 R Version: R ≥ 3.5.0
 ```
-##  To start
-1. Load the Package and Data
-2. Batch Prediction(Muti-sample)
-3. Single-Sample Prediction
+##  You could do
+1. Batch Prediction(Muti-sample)
+2. Single-Sample Prediction
 
 ##  Model Performance
 The m6APrediction model has been validated using ROC and PRC analyses, demonstrating strong discriminative power in handling imbalanced genomic data.
