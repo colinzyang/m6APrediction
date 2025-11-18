@@ -28,7 +28,5 @@ AUC (ROC): ~0.93
 
 AUPRC: ~0.87
 
-(Note: Detailed performance plots are available in the project report/vignettes)
-
 ##  License
 This project is licensed under the GPL-3 License.
