@@ -1,4 +1,4 @@
-# m6APrediction: A Machine Learning Tool for Predicting m6A Modification Sites in RNA
+# m6APrediction: A ML Tool for Predicting m6A Modification Sites in RNA
 
 ##  Overview
 
@@ -13,3 +13,17 @@ You can install the development version of m6APrediction from [GitHub](https://g
 ```r
 # install.packages("devtools")
 devtools::install_github("https://github.com/colinzyang/m6APrediction")
+
+Dependencies: randomForest, stats
+R Version: R ≥ 3.5.0
+```
+##  Model Performance
+The m6APrediction model has been validated using ROC and PRC analyses, demonstrating strong discriminative power in handling imbalanced genomic data.
+
+AUC (ROC): ~0.93
+AUPRC: ~0.87
+
+(Note: Detailed performance plots are available in the project report/vignettes)
+
+##  License
+This project is licensed under the GPL-3 License.
