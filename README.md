@@ -12,4 +12,4 @@ You can install the development version of m6APrediction from [GitHub](https://g
 
 ```r
 # install.packages("devtools")
-devtools::install_github("Zhicheng-Yang/m6APrediction")
+devtools::install_github("https://github.com/colinzyang/m6APrediction/tree/main")
