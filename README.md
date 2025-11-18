@@ -17,7 +17,7 @@ devtools::install_github("https://github.com/colinzyang/m6APrediction")
 Dependencies: randomForest, stats
 R Version: R ≥ 3.5.0
 ```
-##  Quick Start
+##  To start
 1. Load the Package and Data
 2. Batch Prediction(Muti-sample)
 3. Single-Sample Prediction
