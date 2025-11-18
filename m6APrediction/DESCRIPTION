@@ -1,0 +1,14 @@
+Package: m6APrediction
+Title: Prediction of m6A Sites from Genomic Features
+Version: 0.0.0.9000
+Authors@R: 
+    person("Zhicheng", "Yang", email = "zhicheng.yang2302@student.xjtlu.edu.cn", role = c("aut", "cre"))
+Description: Provides functions to predict N6-methyladenosine (m6A) sites 
+    using a pre-trained Random Forest model. Encodes DNA sequences and performs
+    machine learning based predictions.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: 
+    randomForest
